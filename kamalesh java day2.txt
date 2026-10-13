@@ -1,0 +1,60 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        int number=45;
+        String result=(number%2==0)? "Even":"ODD";
+        System.out.println(result);
+    }
+}
+
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        int a=12;
+        int b=10;
+        String result=(a>b)? "Greater":(a==b)? "equal":"less";
+        System.out.println(result);
+            
+    }
+    
+}
+
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+       Scanner scanner= new Scanner(System.in);
+       System.out.println("Enter a number to verify");
+       int number= scanner.nextInt();
+        String result=(number>0)? "Positive":(number<0)?"Negative":"zero";
+        System.out.println(result);
+                            
+    }
+
+}
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Enter your age to verify");
+        int age=scanner.nextInt();
+        String to_check_eligible=(age>=18)? "you are eligible to vote":"you are not eligible to vote";
+        System.out.println(to_check_eligible);
+    }
+}
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner scanner=new Scanner(System.in);
+        int number=scanner.nextInt();
+        String result=(number%3==0&&number%5==0)? "Divisible by both":"It is not divisible by both";
+        System.out.println(result);
+    }
+}
