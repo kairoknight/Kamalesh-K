@@ -1,0 +1,109 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello,java!");
+        System.out.println("Welcome to java programming");
+        System.out.println("My journey starts today");
+    }
+}
+
+
+
+public class Main{
+    public static  void main(String[] args){
+        System.out.println("College: ABC Engineering college");
+        System.out.println("Depatment:Computer science");
+        System.out.println("Java programming");
+    }
+}
+
+public class Main{
+    public static void main(String[]args){
+        System.out.print("java is a simple  java is powerful");
+    }
+}
+
+public class Main{
+    public static void main(String[]args){
+        System.out.println("Name:\tArun");
+        System.out.print("course: java\nLevel:Beginner");
+    }
+}
+
+public class Main{
+    public static void main (String[]args){
+        String studentName="mohammed";
+        int age=20;
+        char grade='E';
+        String placementstatus="very good and still in progress";
+        System.out.println("studentname :"+studentName);
+        System.out.println("AGE: "+age);
+        System.out.println("Placementstatus : " +placementstatus);
+        System.out.println("Grade: "+grade);
+    }
+}
+
+public class Main{
+    public static void main(String[]args){
+        long population=8000000;
+        double product_price=1499.95;
+        char blood_group='A';
+        boolean Account_status=true;
+        String employeename="saravanan";
+        System.out.println("population: "+ population);
+        System.out.println("productprice: "+ product_price);
+        System.out.println("bloodgroup: "+ blood_group);
+        System.out.println("Accountstatus: "+ Account_status);
+        System.out.println("Employee name: "+ employeename);
+        
+    }
+}
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        String product_name="packet ghee";
+        long ID_product=23346;
+        int price_product=23;
+        String availability_product="it is available for 2 days";
+
+        System.out.println("product name: "+ product_name);
+        System.out.println("ID: "+ ID_product);
+        System.out.println("price: "+ price_product);
+        System.out.println("availability: "+ availability_product);
+        
+        import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        int number=45;
+        String result=(number%2==0)? "Even":"ODD";
+        System.out.println(result);
+    }
+}
+
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        int a=12;
+        int b=10;
+        String result=(a>b)? "Greater":(a==b)? "equal":"less";
+        System.out.println(result);
+            
+    }
+    
+}
+
+
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+       Scanner scanner= new Scanner(System.in);
+       System.out.println("Enter a number to verify");
+       int number= scanner.nextInt();
+        String result=(number>0)? "Positive":(number<0)?"Negative":"zero";
+        System.out.println(result);
+                            
+    }
+}
